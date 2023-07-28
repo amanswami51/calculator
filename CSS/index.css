@@ -1,0 +1,185 @@
+/* *********************css for calculator********************* */
+#id1{
+    width: 435px;
+    height: 478px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 104px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    background-color: green;
+    font-size: 56px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.innerCol{
+    display: flex;
+}
+
+#output{
+    width: 26.7pc;
+    height: 93px;
+    margin: 0px 0px 5px 0px;
+    font-size: 50px;
+}
+
+/* *********************css for conversion********************* */
+/* Convert length value, My CSS code */
+#selectType{
+    margin: 7px auto;
+    display: block;
+    width: 232px;
+    height: 29px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    color: crimson;
+}
+
+.hTitle{
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+}
+
+.converter-body{
+    background-color: #74911b;
+    width: 27pc;
+    height: 17pc;
+    padding: 1px 1px 1px 30px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+#length{
+    display: none;
+}
+
+#lenghtInputType, #tempInputType{
+    width: 170px;
+    color: red
+}
+
+#lengthResultType, #tempResultType{
+    width: 170px;
+    color: red;
+    margin: 0px 0px 0px 13px
+}
+
+/* *********************css for tip calculator********************* */
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: #8990ec;
+  }
+  
+  .wrapper {
+    height: 525px;
+    width: 360px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+  
+  #topContainer {
+    margin-top: 4rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background: #353959;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  
+  .buttonContainer {
+    background: #8990ec;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color: #353959 !important;
+  }
+  
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+  
