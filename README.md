@@ -13,3 +13,8 @@ third is `conversions calculator` between two dimensions.
 
 <img width="928" alt="Screenshot 2023-11-04 001456" src="https://github.com/amanswami51/calculator/assets/126395625/979321f2-d8d0-4699-8960-bc514fae371c">
 
+## run this code in your pc
+step1 : Create new directory and open this directory in vs code
+stpe2 : Paste this code in vs code console [  `git clone https://github.com/amanswami51/calculator.git`  ]
+step3 : Open index file which is inside in HTML folder. Then click on `Go Live` button in vs code.
+
